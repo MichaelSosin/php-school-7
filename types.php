@@ -10,4 +10,5 @@ interface iStack {
 interface iQueue {
     public function enqueue($item);
     public function dequeue();
+    public function isEmpty();
 }

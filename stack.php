@@ -1,6 +1,6 @@
 <?php
 
-include 'types.php';
+include_once 'types.php';
 
 class Stack implements iStack {
     
