@@ -1,13 +1,9 @@
 <?php
 
-interface iStack {
-    public function push($item);
-    public function pop();
-    public function top();
-    public function isEmpty();
-}
+include 'types.php';
 
 class Stack implements iStack {
+    
     private $_data = [];
     private $_length = 5;
     private $_topIndex = -1; 
