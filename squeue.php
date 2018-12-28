@@ -42,7 +42,7 @@ class SQueue implements iQueue {
     }
 
     public function isEmpty() {
-        
+        return $this->inbox->isEmpty() && $this->outbox->isEmpty();
     }
 
     private function _setLength($length) {
